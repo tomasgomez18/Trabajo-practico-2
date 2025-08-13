@@ -1,6 +1,6 @@
 // Realiza un script que pida cadenas de texto  hasta que se pulse “cancelar”. Al salir con “cancelar” deben mostrarse todas las cadenas concatenadas con un guión -.
 
-let cadena = " ";
+let cadena = "";
 do {
   let texto = prompt("Ingrese una cadena de texto").toLowerCase();
   if (cadena == "") {
@@ -15,3 +15,4 @@ do {
   }
 } while (true);
 alert(`textos concatenados + ${cadena}`)
+    
