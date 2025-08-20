@@ -6,7 +6,5 @@ do{
     alert( `El numero aleatorio es ${random}`)
 
     let continuar = confirm ("Desea generar otro numero?")
-   if(!continuar){
-    break;
-   } 
+ 
 } while(true)
